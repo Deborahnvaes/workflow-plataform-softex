@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   return (
-    <div>DEBORAH TESTE
+    <div>
       
     </div>
   );
