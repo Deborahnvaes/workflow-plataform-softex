@@ -1,11 +1,16 @@
 import React from 'react'
+import { Routes } from 'react-router-dom'
 
-const Login = () => {
+export const Login = () => {
   return (
     <div>
-      testando
+        <Routes>
+            <Route path="/" element={<LoginForm> />} />
+            <Route path="perdeu" element={<LoginPassWordLost> />} />
+            
+
+
+        </Routes>
     </div>
   )
 }
-
-export default Login
