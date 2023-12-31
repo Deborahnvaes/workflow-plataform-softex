@@ -7,17 +7,17 @@ function Faltas() {
     return (
         <div className="container">
             <Calendario />
-            <div>
-                <div>
-                    <div></div>
+            <div className="calendar-info-container">
+                <div className="calendar-info">
+                    <div className="dot orange-dot"></div>
                     <p>Dias de aulas</p>
                 </div>
-                <div>
-                    <div></div>
+                <div className="calendar-info">
+                    <div className="dot green-dot"></div>
                     <p>Presente</p>
                 </div>
-                <div>
-                    <div></div>
+                <div className="calendar-info">
+                    <div className="dot red-dot"></div>
                     <p>Ausente</p>
                 </div>
             </div>
