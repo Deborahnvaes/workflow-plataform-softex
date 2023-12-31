@@ -1,0 +1,25 @@
+.custom-calendar {
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid #ccc;
+    width: 50%;
+    height: 100%;
+    color: orange;
+  }
+
+  .marked-day {
+    background-color: orange;
+  
+  }
+
+  .red-day{
+    background-color: red;
+  }
+
+  .green-day{
+    background-color: green;
+  }
+
+  .selected-day {
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto, opcional */
+  }
