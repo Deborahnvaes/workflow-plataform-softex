@@ -54,12 +54,12 @@ function Calendario() {
 
   return (
     <div>
-      <h1>Meu Calendário teste</h1>
       <Calendar 
         onChange={onChange}
         value={value}
         tileClassName={tileClassName}
         onClickDay={handleDayClick}
+        className={"custom-calendar"}
       />
     </div>
   );
