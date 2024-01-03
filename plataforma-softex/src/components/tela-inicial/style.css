@@ -28,3 +28,9 @@
     font-size: 10rem;
     text-align: center;
 }
+
+@media(max-width: 550px) {
+    .card-icon{
+        font-size: 4rem;
+    }
+}
