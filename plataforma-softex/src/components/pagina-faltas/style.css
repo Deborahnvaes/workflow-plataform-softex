@@ -66,3 +66,27 @@
     transform: translateX(30%);
     position: relative; 
 }
+
+
+@media(max-width: 550px) {
+    
+}
+
+@media(max-width: 750px) {
+    
+}
+
+@media(max-width: 980px) {
+    .container{
+        padding: 4rem 0;
+        margin: 0 auto;
+       flex-direction: column;
+       width: 100%;
+    }
+
+    .calendar-info-container {
+        transform: translateY(-50%);
+        flex-direction: row;
+        gap: 2rem;
+    }
+}
