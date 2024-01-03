@@ -13,15 +13,15 @@
 }
 
 .red-day {
-  background-color: red;
+  background-color: #C90000;
 }
 
 .green-day {
-  background-color: green;
+  background-color: #006A0B;
 }
 
 .selected-day {
-  background-color: red;
+  background-color: #C90000;
   color: white;
 }
 
