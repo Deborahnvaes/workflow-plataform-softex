@@ -19,7 +19,7 @@ function Inicial() {
             <Card style={{ width: '18rem' }} className='card'>
                 <i class="fas fa-signal card-icon"></i>
                 <Card.Body>
-                    <Card.Link href="#" className='btn'>Perfil</Card.Link>
+                    <Card.Link href="#" className='btn'>Ranking</Card.Link>
                 </Card.Body>
             </Card>
             <Card style={{ width: '18rem' }} className='card'>
