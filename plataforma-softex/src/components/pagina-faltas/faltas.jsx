@@ -6,7 +6,7 @@ import './style.css';
 
 function Faltas() {
     return (
-        <div className="container">
+        <div className="container ">
         <Calendario />
         <div className="calendar-info-container">
             <div className="calendar-info">

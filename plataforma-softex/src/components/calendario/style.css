@@ -1,26 +1,36 @@
 .custom-calendar {
-    font-family: 'Times New Roman', Times, serif;
-    border: 2px solid #717171;
-    width: 35vw;
-    height: 100%;
-    color: #DC782A;
-    font-size: 1.2rem;
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid #717171;
+  width: 35vw;
+  height: 100%;
+  color: #DC782A;
+  font-size: 1.2rem;
+}
+
+.marked-day {
+  background-color: #DC782A;
+
+}
+
+.red-day {
+  background-color: red;
+}
+
+.green-day {
+  background-color: green;
+}
+
+.selected-day {
+  background-color: red;
+  color: white;
+}
+
+
+@media(max-width: 950px) {
+  .custom-calendar {
+    width: 100%;
   }
 
-  .marked-day {
-    background-color: #DC782A;
-  
-  }
+ 
 
-  .red-day{
-    background-color: red;
-  }
-
-  .green-day{
-    background-color: green;
-  }
-
-  .selected-day {
-    background-color: red; 
-    color: white;
-  }
+}

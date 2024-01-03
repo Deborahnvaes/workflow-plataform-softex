@@ -53,13 +53,14 @@ function Calendario() {
   };
 
   return (
-    <div>
+    <div className="d-flex justify-content-center mt-3">
       <Calendar 
         onChange={onChange}
         value={value}
         tileClassName={tileClassName}
         onClickDay={handleDayClick}
-        className={"custom-calendar"}
+        className={"custom-calendar "}
+        
       />
     </div>
   );
