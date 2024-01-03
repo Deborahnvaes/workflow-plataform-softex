@@ -1,0 +1,52 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+}
+.ranking-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.ranking-info h1{
+    font-size: 30px;
+}
+.ranking-info h3{
+    font-size: 16px;
+    margin: 10px 0;
+}
+.ranking-info p{
+    margin-bottom: 30px;
+}
+.your-classification{
+    background-color: #DC782A;
+    width: 100%;
+    padding-top: 20px ;
+    
+}
+.monitoring{
+    background-color: #D7D7D7;
+    width: 100%;
+    padding-bottom: 30px;
+    
+}
+.monitoring img{
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+.ranking-position{
+    font-size: 60px;
+    font-weight: bold;
+}
+.costumize-button{
+    background-color: #DC782A;
+    border: #DC782A;
+    border-radius: 20px;
+    font-size: 15px;
+}

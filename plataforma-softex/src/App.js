@@ -1,10 +1,14 @@
 
 import './App.css';
-
+import MostrarRanking from './components/ranking/ranking';
 
 
 function App() {
-  return 
+  return (
+    <>
+      <MostrarRanking/>
+    </>
+  )
 }
 
 export default App;
