@@ -73,10 +73,7 @@
 }
 
 @media(max-width: 750px) {
-    .calendar-info-container {
-        transform: translateY(-200%);
-        
-    }
+    
 }
 
 @media(max-width: 980px) {
@@ -88,7 +85,7 @@
     }
 
     .calendar-info-container {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
         flex-direction: row;
         gap: 2rem;
     }
