@@ -1,0 +1,30 @@
+
+.card-container{
+    background-color: #E9E9E9;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.btn{
+    background-color: #DC782A;
+    width: 100%;
+    border-color: transparent;
+}
+
+.btn:hover{
+    background-color: #8c4c1b;
+}
+
+.card{
+    background-color: #E9E9E9;
+    border-radius: 15px;
+}
+
+.card-icon{
+    font-size: 10rem;
+    text-align: center;
+}
