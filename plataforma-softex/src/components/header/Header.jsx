@@ -1,16 +1,11 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import {Container, Nav, Navbar} from 'react-bootstrap';
 import './style.css'
-
-
 
 function Header() {
   return (
-    <header>
+    <header style={{position: 'relative'}}>
      <Navbar expand="lg" className="bg-body-tertiary" collapseOnSelect>
-      <Container>
         <Navbar.Brand href="#home"><i className='fas fa-user' ></i> Olá, Usuário</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -22,9 +17,7 @@ function Header() {
             <Nav.Link href="#link">Sair</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
     </Navbar>
-
     </header>
   )
 }
