@@ -29,7 +29,7 @@
     text-align: center;
 }
 
-@media(max-width: 550px) {
+@media(max-width: 850px) {
     .card-icon{
         font-size: 4rem;
     }
