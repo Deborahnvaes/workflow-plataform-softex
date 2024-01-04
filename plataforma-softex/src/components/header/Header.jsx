@@ -17,8 +17,6 @@ function Header() {
             <Nav.Link href="#link">Sair</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      
-    
     </Navbar>
     </header>
   )
