@@ -1,21 +1,20 @@
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
+
 import { Container } from 'react-bootstrap'
 import './App.css';
-
+import Perfil from './components/perfil/Perfil';
 
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <main>
+      
+    
         <Container>
-         conteudo
+         <Perfil></Perfil>
         </Container>
 
-      </main>
-      <Footer></Footer>
+       
+     
     </>
   )
 }
