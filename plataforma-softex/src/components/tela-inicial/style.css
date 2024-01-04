@@ -1,13 +1,12 @@
 
-.card-container{
-    background-color: #E9E9E9;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1rem;
+.container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   margin: 50px;
+   padding: 50px;
+    
 }
 .btn{
     background-color: #DC782A;
@@ -19,9 +18,12 @@
     background-color: #8c4c1b;
 }
 
-.card{
+.card{ 
     background-color: #E9E9E9;
+    margin: 10px;
     border-radius: 15px;
+    flex-basis: calc(25% - 20px);
+
 }
 
 .card-icon{
@@ -29,7 +31,7 @@
     text-align: center;
 }
 
-@media(max-width: 550px) {
+@media(max-width: 850px) {
     .card-icon{
         font-size: 4rem;
     }
