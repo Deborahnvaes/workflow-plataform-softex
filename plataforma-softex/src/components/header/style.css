@@ -2,3 +2,8 @@
     color: #DC782A;
     font-size: 1.5rem;
 }
+
+.bg-body-tertiary{
+    width: 100%;
+    position: relative;
+}
