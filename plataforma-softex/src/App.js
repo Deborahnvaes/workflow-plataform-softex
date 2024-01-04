@@ -1,5 +1,4 @@
 
-import { Container } from 'react-bootstrap'
 import './App.css';
 import Perfil from './components/perfil/Perfil';
 
@@ -7,14 +6,14 @@ import Perfil from './components/perfil/Perfil';
 function App() {
   return (
     <>
-      
-    
-        <Container>
-         <Perfil></Perfil>
-        </Container>
 
-       
-     
+
+
+      <Perfil></Perfil>
+
+
+
+
     </>
   )
 }
