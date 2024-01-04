@@ -1,7 +1,4 @@
-main {
-  height: 80vh;
-}
-
-main{
-  background-color: #E9E9E9;
+body {
+  margin: 0;
+  padding: 0;
 }
