@@ -1,14 +1,15 @@
-import Faltas from './components/pagina-faltas/faltas';
 import './App.css';
-
-
+import LoginForm from './components/Login/LoginForm.jsx'
+import GlobalStyles from './components/Login/Style/GlobalStyles.jsx';
 
 function App() {
   return (
     <>
-      <Faltas />
+    <GlobalStyles />
+    <LoginForm />
     </>
-  )
+)
+
 }
 
 export default App;

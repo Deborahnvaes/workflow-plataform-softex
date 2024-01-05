@@ -1,0 +1,63 @@
+main{
+    display: flex;
+}
+
+.geo-form{
+    height: 100vh;
+}
+
+.geo-form img{
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.front-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo img{
+    margin-top: 5%;
+    width: 60%;
+}
+.logo p {
+    margin:20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.remember-password{
+    margin: 30px;
+    padding: 30px;
+    border: 5px solid #DC782A;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.remember-password p {
+    font-size: 14px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+/*Formulário*/
+.custom-button{
+    background-color: #DC782A;
+    border: #DC782A;
+    border-radius: 20px;
+} 
+.form-email{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 15px;
+}
