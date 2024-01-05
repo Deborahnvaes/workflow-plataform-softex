@@ -1,21 +1,14 @@
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import { Container } from 'react-bootstrap'
-import Inicial from './components/tela-inicial/Inicial';
 import './App.css';
+import LoginForm from './components/Login/LoginForm.jsx'
+import GlobalStyles from './components/Login/Style/GlobalStyles.jsx';
 
 function App() {
   return (
     <>
-      <Header></Header>
-      <main>
-        <Container>
-         <Inicial></Inicial>
-        </Container>
-
-      </main>
-      <Footer></Footer>
+    <GlobalStyles />
+    <LoginForm />
     </>
+   
   )
 }
 
