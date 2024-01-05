@@ -1,12 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import LoginForm from './components/Login/LoginForm.jsx'
+import GlobalStyles from './components/Login/Style/GlobalStyles.jsx';
 
 function App() {
   return (
-    <div>DEBORAH TESTE
-      
-    </div>
-  );
+    <>
+    <GlobalStyles />
+    <LoginForm />
+    </>
+)
+
 }
 
 export default App;
