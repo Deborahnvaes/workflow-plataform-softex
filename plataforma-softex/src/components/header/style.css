@@ -6,3 +6,8 @@
 .checkbox{
     color: #DC782A;
 }
+
+.bg-body-tertiary{
+    width: 100%;
+  position: relative;
+}

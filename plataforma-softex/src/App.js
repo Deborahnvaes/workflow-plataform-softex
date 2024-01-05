@@ -1,21 +1,14 @@
-
 import './App.css';
-import Perfil from './components/perfil/Perfil';
-
+import LoginForm from './components/Login/LoginForm.jsx'
+import GlobalStyles from './components/Login/Style/GlobalStyles.jsx';
 
 function App() {
   return (
     <>
-
-
-
-      <Perfil></Perfil>
-
-
-
-
+    <GlobalStyles />
+    <LoginForm />
     </>
-  )
+)
 }
 
 export default App;
