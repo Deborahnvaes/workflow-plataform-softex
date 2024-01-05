@@ -15,6 +15,8 @@ function Footer() {
               >
                 <i class="fab fa-instagram"></i>
               </a>
+
+              
               <a
                 href="https://www.facebook.com/SOFTEXRecife/?locale=pt_BR"
                 target="_blank"

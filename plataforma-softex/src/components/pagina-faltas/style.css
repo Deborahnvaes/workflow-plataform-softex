@@ -81,12 +81,15 @@
         padding: 4rem 0;
         margin: 0 auto;
        flex-direction: column;
-       width: 100%;
+       width: 100vw;
     }
 
     .calendar-info-container {
         transform: translateY(-50%);
         flex-direction: row;
         gap: 2rem;
+    }
+    .text-container {
+        margin: 0;
     }
 }
