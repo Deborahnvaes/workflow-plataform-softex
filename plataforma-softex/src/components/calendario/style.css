@@ -1,0 +1,34 @@
+.custom-calendar {
+  font-family: 'Times New Roman', Times, serif;
+  border: 2px solid #717171;
+  width: 35vw;
+  height: 100%;
+  color: #DC782A;
+  font-size: 1.2rem;
+}
+
+.marked-day {
+  background-color: #DC782A;
+
+}
+
+.red-day {
+  background-color: #C90000;
+}
+
+.green-day {
+  background-color: #006A0B;
+}
+
+.selected-day {
+  background-color: #C90000;
+  color: white;
+}
+
+
+@media(max-width: 950px) {
+  .custom-calendar {
+    width: 100%;
+  }
+
+}
