@@ -8,8 +8,7 @@ function App() {
     <GlobalStyles />
     <LoginForm />
     </>
-   
-  )
+)
 }
 
 export default App;
