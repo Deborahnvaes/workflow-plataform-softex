@@ -1,0 +1,19 @@
+
+.icons {    
+    font-size: 1.5rem;
+    cursor: pointer;
+    letter-spacing: 50px;
+    margin-left: 30px;
+}
+
+footer a {
+    color: #DC782A;
+}
+
+footer {
+    background-color: #D7D7D7;
+    font-size: 1rem;
+    border-top: 2px solid  #DC782A;
+    position: relative;
+    bottom: 0;
+

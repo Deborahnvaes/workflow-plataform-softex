@@ -1,14 +1,14 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import EnviarEmail from './componentes/lembrar_senha/esqueceu-senha';
-import RedefinirSenha from './componentes/redefinir_senha/redefinindo-senha';
-
+import LoginForm from './components/Login/LoginForm.jsx'
+import GlobalStyles from './components/Login/Style/GlobalStyles.jsx';
 
 function App() {
   return (
-    <RedefinirSenha/>
-    
-  )
+    <>
+    <GlobalStyles />
+    <LoginForm />
+    </>
+)
 }
 
 export default App;
