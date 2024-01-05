@@ -3,6 +3,11 @@
     font-size: 1.5rem;
 }
 
+.checkbox{
+    color: #DC782A;
+}
+
 .bg-body-tertiary{
     width: 100%;
-    position: relative;
+  position: relative;
+}
