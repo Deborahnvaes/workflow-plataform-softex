@@ -1,8 +1,8 @@
-import React from "react";
+import {React, useState} from "react";
 import styled from "styled-components";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import logo from "./Style/img/Logo-Softex.png";
-import { FaUser, FaLock } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 const StyledLoginContainer = styled.div`
   position: fixed;
@@ -90,53 +90,81 @@ const SiteName = styled.p`
   }
 `;
 
-const LoginForm = () => (
-  <>
-    <LogoImage src={logo} alt="Logo" />
-    <SiteName>Workflow Automation Platform</SiteName>
-    <StyledLoginContainer>
-      <Row className="mb-4">
-        <Col>
-          <StyledTitle style={{ fontWeight: "bold", color: "#DC782A" }}>
-            LOGIN
-          </StyledTitle>
-        </Col>
-      </Row>
+const LoginForm = () => {
+  const navigate = useNavigate();
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [error, setError] = useState(null);
 
-      <Col>
+  const handleLogin = () => {
+    if (email === 'user@example.com' && password === '1234') {
+      navigate('../tela-inicial');
+    } else {
+      setError('Credenciais inválidas. Por favor, tente novamente.');
+    }
+  };
+
+  return (
+    <>
+      <LogoImage src={logo} alt="Logo" />
+      <SiteName>Workflow Automation Platform</SiteName>
+      <StyledLoginContainer>
+        <Row className="mb-4">
+          <Col>
+            <StyledTitle style={{ fontWeight: "bold", color: "#DC782A" }}>
+              LOGIN
+            </StyledTitle>
+          </Col>
+        </Row>
+
+        <Col>
         <StyledForm>
-          {["Username", "Password"].map((field, index) => (
-            <Form.Group key={index} controlId={`form${field}`}>
-              <StyledInput
-                type={index === 1 ? "password" : "text"}
-                placeholder={field}
-              />
-            </Form.Group>
-          ))}
+        <Form.Group controlId="formEmail">
+          <StyledInput
+            type="email"
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </Form.Group>
 
-          <Form.Group controlId="formRememberMe">
-            <Form.Check
-              style={{ color: "#8A8A8A" }}
-              type="checkbox"
-              label="Lembrar-me"
-            />
-          </Form.Group>
-        </StyledForm>
+        <Form.Group controlId="formPassword">
+          <StyledInput
+            type="password"
+            placeholder="Senha"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </Form.Group>
 
-        <StyledSubmitButton variant="primary" type="submit">
-          Entrar
-        </StyledSubmitButton>
-      </Col>
+        <Form.Group controlId="formRememberMe">
+          <Form.Check
+            style={{ color: "#8A8A8A" }}
+            type="checkbox"
+            label="Lembrar-me"
+          />
+        </Form.Group>
+      </StyledForm>
 
-      <Row>
-        <Col>
-          <a style={{ color: "black", fontSize: "10px" }} href="esqueceuSenha">
-            Esqueceu a senha?
-          </a>
+      <StyledSubmitButton variant="primary" type="button" onClick={handleLogin}>
+        Entrar
+      </StyledSubmitButton>
+
+      {error && <p style={{ color: 'red' }}>{error}</p>}
+
         </Col>
-      </Row>
-    </StyledLoginContainer>
-  </>
-);
+
+        <Row>
+          <Col>
+            <a style={{ color: "black", fontSize: "10px" }} href="esqueceuSenha">
+              Esqueceu a senha?
+            </a>
+          </Col>
+        </Row>
+      </StyledLoginContainer>
+    </>
+  );
+};
 
 export default LoginForm;
+
