@@ -30,8 +30,9 @@
 }
 
 .card-icon{
-    font-size: 100rem;
+    font-size: 10rem; 
     text-align: center;
+    color: #DC782A;
 }
 
 @media(max-width: 650px) {

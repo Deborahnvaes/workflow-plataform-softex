@@ -7,7 +7,7 @@ function Header() {
   return (
     <header style={{position: 'relative'}}>
      <Navbar expand="lg" className="bg-body-tertiary" collapseOnSelect>
-        <Navbar.Brand href="#home"><i className='fas fa-user' ></i> Olá, Usuário</Navbar.Brand>
+        <Navbar.Brand href="#home"><i className='fas fa-user icon-header' ></i> Olá, Usuário</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
