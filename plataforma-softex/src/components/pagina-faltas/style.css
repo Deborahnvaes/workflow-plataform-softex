@@ -5,8 +5,8 @@
 
 }
 
-.container {
-    height: 100vh;
+.container-faltas {
+    height: 80vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -76,8 +76,8 @@
     
 }
 
-@media(max-width: 980px) {
-    .container{
+@media(max-width: 850px) {
+    .container-faltas{
         padding: 4rem 0;
         margin: 0 auto;
        flex-direction: column;

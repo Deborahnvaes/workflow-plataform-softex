@@ -1,20 +1,25 @@
 
-.container{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   align-items: center;
-   margin: 50px;
-   padding: 50px;
+.container-inicial{
+    background-color: #E9E9E9;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
     
 }
-.btn{
+.btn-card{
+    display: block;
     background-color: #DC782A;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
     width: 100%;
-    border-color: transparent;
 }
 
-.btn:hover{
+.btn-card:hover{
     background-color: #8c4c1b;
 }
 
@@ -22,16 +27,14 @@
     background-color: #E9E9E9;
     margin: 10px;
     border-radius: 15px;
-    flex-basis: calc(25% - 20px);
-
 }
 
 .card-icon{
-    font-size: 10rem;
+    font-size: 100rem;
     text-align: center;
 }
 
-@media(max-width: 850px) {
+@media(max-width: 650px) {
     .card-icon{
         font-size: 4rem;
     }

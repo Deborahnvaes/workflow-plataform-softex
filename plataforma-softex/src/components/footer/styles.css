@@ -9,9 +9,10 @@ footer a {
 }
 
 footer {
+    width: 100%;
     background-color: #D7D7D7;
     font-size: 1rem;
-    border-top: 2px solid  #DC782A;
+    border-top: 2px solid #DC782A;
     position: relative;
     bottom: 0;
 }
