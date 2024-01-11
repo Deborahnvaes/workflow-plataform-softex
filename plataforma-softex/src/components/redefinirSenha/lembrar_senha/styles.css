@@ -24,8 +24,7 @@ main{
     align-items: center;
 }
 .logo img{
-    margin-top: 5%;
-    width: 60%;
+    width: 50%;
 }
 .logo p {
     margin:20px;
@@ -37,7 +36,7 @@ main{
     margin: 30px;
     padding: 30px;
     border: 5px solid #DC782A;
-    width: 40%;
+    width: 22.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,3 +60,19 @@ main{
     margin: 15px;
     gap: 15px;
 }
+
+/*Responsividade*/
+
+@media(max-width: 950px){
+.geo-form{
+    display: none;
+}
+}
+@media(max-width: 768px){
+    .remember-password{
+      width: 80%;
+    }  
+    .logo img{
+        width: 80%;
+    }
+  }
