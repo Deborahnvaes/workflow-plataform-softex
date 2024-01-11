@@ -10,10 +10,6 @@ import axios from 'axios';
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
 
-
-
-
-
 function Perfil() {
     const [validated, setValidated] = useState(false);
     const [cep, setCep] = useState('');
@@ -65,8 +61,8 @@ function Perfil() {
                     <div className='user-bg'>
                         <i className='fas fa-user user-icon' ></i>
                     </div>
-                    <Button type="submit" className='btn-perfil'>Alterar imagem</Button>
-                    <Button type="submit" className='btn-perfil'>Redefinir senha</Button>
+                    <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Alterar imagem</Button>
+                    <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Redefinir senha</Button>
                 </div>
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className='py-5'>
                     <Row className="mb-3">
@@ -203,7 +199,7 @@ function Perfil() {
                             className="custom-checkbox"
                         />
                     </Form.Group>
-                    <Button type="submit" className='btn-perfil'>Salvar</Button>
+                    <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Salvar</Button>
                 </Form>
             </div>
 
