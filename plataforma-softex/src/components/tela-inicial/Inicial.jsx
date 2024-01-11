@@ -43,7 +43,8 @@ function Inicial() {
 
         <i className="fas fa-comments card-icon"></i>
         <Card.Body>
-          <Card.Link as={Link} to="#" className="btn-card">
+          <Card.Link as={Link} to='javascript:void(0)'
+      onClick={() => window.location = 'mailto:yourmail@domain.com'} className="btn-card" >
             Contato
           </Card.Link>
         </Card.Body>

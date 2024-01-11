@@ -19,7 +19,7 @@ function Footer() {
                 href="https://www.facebook.com/SOFTEXRecife/?locale=pt_BR"
                 target="_blank" rel="noreferrer"
               >
-                <i class="fab fa-facebook"></i>
+                <i className="fab fa-facebook"></i>
               </a>
               <a
                 href="https://www.youtube.com/channel/UC7kcWjS2LVnUo2hhlOrj51g"
@@ -31,7 +31,7 @@ function Footer() {
                 href="https://br.linkedin.com/company/softexrecife"
                 target="_blank" rel="noreferrer"
               >
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </a>
             </p>
             <p className="nome-plataforma" style={{fontWeight: 'bold', fontSize: 16}}>Workflow Automation Platform</p>
