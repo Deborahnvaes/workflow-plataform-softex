@@ -51,6 +51,9 @@ i.user-icon{
     border-color: #0000;
 }
 
+.cont-perfil{
+    padding: 5rem;
+}
 
 
 @media(max-width: 850px){
