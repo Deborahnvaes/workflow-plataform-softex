@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
 
 .container-faltas {
-    height: 80vh;
+    padding: 5rem;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -68,24 +68,18 @@
 }
 
 
-@media(max-width: 550px) {
-    
-}
-
-@media(max-width: 750px) {
-    
-}
-
-@media(max-width: 850px) {
+@media(max-width: 950px) {
     .container-faltas{
         padding: 4rem 0;
-        margin: 0 auto;
+        margin: 10 auto;
        flex-direction: column;
        width: 100vw;
+       height: 100%;
+       
     }
 
     .calendar-info-container {
-        transform: translateY(-50%);
+        transform: translateY(-5%);
         flex-direction: row;
         gap: 2rem;
     }

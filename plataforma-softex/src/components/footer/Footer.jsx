@@ -4,9 +4,9 @@ import './styles.css';
 
 function Footer() {
   return (
-    <footer className="container-footer">
-      <Row>
-        <Col className="text-center py-3">
+    <footer className="container-footer ">
+      <Row >
+        <Col className="text-center ">
           <div className="icons-1" >
             <p  >
               <a
@@ -34,8 +34,8 @@ function Footer() {
                 <i class="fab fa-linkedin"></i>
               </a>
             </p>
-            <p className="nome-plataforma" style={{fontWeight: 'bold'}}>Workflow Automation Platform</p>
-            <p>© 2023 Copyright: Softex - Pernambuco</p>
+            <p className="nome-plataforma" style={{fontWeight: 'bold', fontSize: 16}}>Workflow Automation Platform</p>
+            <p  style={{fontSize: 16}}>© 2023 Copyright: Softex - Pernambuco</p>
           </div>
         </Col>
       </Row>
