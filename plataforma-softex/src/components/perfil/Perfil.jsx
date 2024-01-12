@@ -47,6 +47,7 @@ function Perfil() {
         if (form.checkValidity() === false) {
             event.preventDefault();
             event.stopPropagation();
+
         }
 
         setValidated(true);
@@ -55,7 +56,6 @@ function Perfil() {
     return (
         < >
             <Header />
-
             <div className='cont-perfil'>
                 <div className='user-photo-profile'>
                     <div className='user-bg'>
@@ -64,9 +64,9 @@ function Perfil() {
                     <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Alterar imagem</Button>
                     <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Redefinir senha</Button>
                 </div>
-                <Form noValidate validated={validated} onSubmit={handleSubmit} className='py-5'>
+                <Form noValidate validated={validated} onSubmit={handleSubmit} className='py-5 w-100'>
                     <Row className="mb-3">
-                        <Form.Group as={Col} md="4" controlId="validationCustom01">
+                        <Form.Group as={Col} md="4" controlId="validationCustom01" >
                             <Form.Label>Primeiro nome</Form.Label>
                             <Form.Control
                                 required
@@ -106,7 +106,7 @@ function Perfil() {
 
                     <Row>
 
-                        <Form.Group as={Col} md="4" controlId="validationCustom06">
+                        <Form.Group as={Col} md="4" controlId="validationCustom06" className='mt-1'>
                             <Form.Label>Data de Nascimento</Form.Label>
                             <Form.Control
                                 required
