@@ -20,6 +20,11 @@
     text-align: center;
 }
 
+.btn-faltas a{
+    color: #000000;
+    text-decoration: none;
+}
+
 .dot {
     width: 1rem;
     height: 1rem;

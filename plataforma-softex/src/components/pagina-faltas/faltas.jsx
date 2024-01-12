@@ -34,7 +34,7 @@ function Faltas() {
                 Se você precisar justificar uma falta, utilize este espaço para enviar seu atestado médico.
                 Sua saúde é nossa prioridade, e sua participação é fundamental.
                 Clique abaixo para enviar o atestado e garantir que sua falta seja registrada de maneira adequada.</p>
-            <Button variant="warning">Justifique sua falta aqui</Button>{' '}
+            <Button variant="warning" className="btn-faltas"><a href="https://forms.gle/HAe8nFncW5DuiASu9" target="_blank">Justifique sua falta aqui</a> </Button>{' '}
         </div>
 
     </section>
