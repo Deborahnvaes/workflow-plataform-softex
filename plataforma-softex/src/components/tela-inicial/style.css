@@ -39,4 +39,8 @@
     .card-icon{
         font-size: 4rem;
     }
+
+    .container-inicial{
+        height: 100vh;
+    }
 }
