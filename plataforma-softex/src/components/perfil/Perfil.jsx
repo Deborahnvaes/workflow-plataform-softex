@@ -19,21 +19,19 @@ function Perfil() {
     const handleCepChange = (event) => {
         const newCep = event.target.value;
         setCep(newCep);
-        setCepError(null); // Limpa mensagens de erro ao digitar
+        setCepError(null);
     };
 
     const handleCepLookup = async () => {
         try {
-            // Remove caracteres não numéricos do CEP
+           
             const cleanedCep = cep.replace(/\D/g, '');
 
-            // Validação básica do formato do CEP
             const cepRegex = /^\d{8}$/;
             if (!cepRegex.test(cleanedCep)) {
                 throw new Error('Formato de CEP inválido');
             }
 
-            // Consulta o CEP usando o serviço ViaCEP
             const response = await axios.get(`https://viacep.com.br/ws/${cleanedCep}/json/`);
             setCepData(response.data);
         } catch (error) {

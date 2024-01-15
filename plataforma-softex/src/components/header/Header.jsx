@@ -12,6 +12,7 @@ function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
           <Nav.Link as={Link} to="/tela-inicial">Início</Nav.Link>
+          <Nav.Link as={Link} to="/perfil">Perfil</Nav.Link>
           <Nav.Link as={Link} to="/faltas">Faltas</Nav.Link>
           <Nav.Link as={Link} to="/ranking">Ranking</Nav.Link>
           <Nav.Link as={Link} to="#">Contato</Nav.Link>
