@@ -3,16 +3,22 @@ import styled from "styled-components";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import logo from "./Style/img/Logo-Softex.png";
 import { useNavigate } from 'react-router-dom';
+import backGroundImagem from '../Login/Style/img/form.Geom.png';
+import { createGlobalStyle } from "styled-components";
+
+import GlobalStyle from './Style/GlobalStyles';
+
 
 const StyledLoginContainer = styled.div`
   position: fixed;
   bottom: 0;
   right: 0;
-  margin: 20px;
+  margin: 5px;
   padding: 40px;
   border: 3px solid black;
   box-sizing: border-box;
   width: calc(35% - 20px);
+  
 
   @media (max-width: 768px) {
     width: calc(100% - 20px);
@@ -25,7 +31,7 @@ const StyledLoginContainer = styled.div`
 const StyledTitle = styled.label`
   position: absolute;
   top: -10px;
-  left: 50%;
+  left: 35%;
   transform: translateX(-200%);
   background-color: white;
   padding: 0 10px;
@@ -80,8 +86,8 @@ const SiteName = styled.p`
   font-weight: bold;
   right: 150px;
   position: absolute;
-  top: 210px;
-  right: 80px;
+  top: 190px;
+  right: 90px;
 
   @media (max-width: 768px) {
     font-size: 14px;
@@ -97,7 +103,7 @@ const LoginForm = () => {
   const [error, setError] = useState(null);
 
   const handleLogin = () => {
-    if (email === 'user@example.com' && password === '1234') {
+    if (email === 'alunofap@gmail.com' && password === '1234') {
       navigate('../tela-inicial');
     } else {
       setError('Credenciais inválidas. Por favor, tente novamente.');
@@ -106,6 +112,7 @@ const LoginForm = () => {
 
   return (
     <>
+      <GlobalStyle />
       <LogoImage src={logo} alt="Logo" />
       <SiteName>Workflow Automation Platform</SiteName>
       <StyledLoginContainer>
@@ -162,7 +169,7 @@ const LoginForm = () => {
           </Col>
         </Row>
       </StyledLoginContainer>
-    </>
+      </>
   );
 };
 
