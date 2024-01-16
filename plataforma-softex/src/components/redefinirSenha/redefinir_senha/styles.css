@@ -1,5 +1,6 @@
 .email-container{
     display: flex;
+    background: #DC782A;
 }
 
 .geo-form{
@@ -83,5 +84,6 @@
 @media(max-width: 768px){
   .redefine-password{
     width: 80%;
-  }  
+    
+  } 
 }

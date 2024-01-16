@@ -38,7 +38,7 @@ const StyledTitle = styled.label`
 
   @media (max-width: 768px) {
     top: -10px;
-    left: 55%;
+    left: 45%;
   }
 
  
