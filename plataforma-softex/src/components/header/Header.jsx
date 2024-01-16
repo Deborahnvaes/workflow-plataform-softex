@@ -15,7 +15,6 @@ function Header() {
           <Nav.Link as={Link} to="/perfil">Perfil</Nav.Link>
           <Nav.Link as={Link} to="/faltas">Faltas</Nav.Link>
           <Nav.Link as={Link} to="/ranking">Ranking</Nav.Link>
-          <Nav.Link as={Link} to="#">Contato</Nav.Link>
           <Nav.Link as={Link} to="/">Sair</Nav.Link>
           </Nav>
         </Navbar.Collapse>
