@@ -24,18 +24,18 @@
     align-items: center;
 }
 .logo img{
-    width: 60%;
+    width: 70%;
 
 }
 .logo p {
-    margin:20px;
+    margin:0.9rem;
     font-weight: bold;
     font-size: 15px;
 }
 
 .redefine-password{
     border: 5px solid #DC782A;
-    width: 50%;
+    width: 30.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,4 +78,10 @@
     flex-direction: column;
     margin: 10px;
     gap: 10px;
+}
+
+@media(max-width: 768px){
+  .redefine-password{
+    width: 80%;
+  }  
 }

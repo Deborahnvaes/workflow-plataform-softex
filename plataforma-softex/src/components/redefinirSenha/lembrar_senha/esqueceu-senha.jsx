@@ -2,17 +2,19 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Form, Button} from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import './styles.css';
-
+import image from '../../Login/Style/img/form.Geom.png'
+import imageLogo from '../../Login/Style/img/Logo-Softex.png'
+ 
 function EnviarEmail() {
     return (
       <section className='email-container'>
         <div className='geo-form'>
-            <img src="/imagens/form.Geom.png" alt="" />
+            <img src= {image} alt="" />
         </div>
         <Container className="vh-100">
           <div className='front-page'>
               <div className='logo'>
-                  <img src="/imagens/Logo-Softex.png" alt="" />
+                  <img src= {imageLogo} alt="" />
                   <p>Workflow Automation Platform</p>
               </div>
               <div className='remember-password'>

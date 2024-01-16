@@ -1,7 +1,6 @@
 .redefinir-container{
     display: flex;
 }
-
 .geo-form{
     height: 100vh;
 }
@@ -24,8 +23,7 @@
     align-items: center;
 }
 .logo img{
-    margin-top: 5%;
-    width: 60%;
+    width: 50%;
 }
 .logo p {
     margin:20px;
@@ -37,7 +35,7 @@
     margin: 30px;
     padding: 30px;
     border: 5px solid #DC782A;
-    width: 40%;
+    width: 22.8rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,3 +59,27 @@
     margin: 15px;
     gap: 15px;
 }
+
+.email-container p, h3{
+    color: #000000;
+}
+
+.redefinir-container h3, p{
+   color: #000000;
+}
+
+/*Responsividade*/
+
+@media(max-width: 950px){
+.geo-form{
+    display: none;
+}
+}
+@media(max-width: 768px){
+    .remember-password{
+      width: 80%;
+    }  
+    .logo img{
+        width: 80%;
+    }
+  }

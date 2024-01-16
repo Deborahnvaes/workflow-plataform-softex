@@ -4,18 +4,20 @@ import { Container } from 'react-bootstrap';
 import './styles.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
+import image from '../../Login/Style/img/form.Geom.png'
+import imageLogo from '../../Login/Style/img/Logo-Softex.png'
 
 
 function RedefinirSenha() {
     return (
       <section className='redefinir-container'>
         <div className='geo-form'>
-            <img src="/imagens/form.Geom.png" alt="" />
+            <img src={image} alt="" />
         </div>
         <Container className="vh-100">
             <div className='front-page'>
                 <div className='logo'>
-                    <img src="/imagens/Logo-Softex.png" alt="" />
+                    <img src= {imageLogo} alt="" />
                     <p>Workflow Automation Platform</p>
                 </div>
                 <div className='redefine-password'>
