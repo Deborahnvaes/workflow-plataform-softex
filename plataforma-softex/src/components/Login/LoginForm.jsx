@@ -2,7 +2,7 @@ import {React, useState} from "react";
 import styled from "styled-components";
 import { Row, Col, Form, Button } from "react-bootstrap";
 import logo from "./Style/img/Logo-Softex.png";
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import backGroundImagem from '../Login/Style/img/form.Geom.png';
 import { createGlobalStyle } from "styled-components";
 
@@ -163,9 +163,9 @@ const LoginForm = () => {
 
         <Row>
           <Col>
-            <a style={{ color: "black", fontSize: "10px" }} href="esqueceuSenha">
+            <Link style={{ color: "black", fontSize: "10px" }} to="/enviar-email">
               Esqueceu a senha?
-            </a>
+            </Link>
           </Col>
         </Row>
       </StyledLoginContainer>

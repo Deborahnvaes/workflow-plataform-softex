@@ -8,7 +8,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons'
 
 function RedefinirSenha() {
     return (
-      <main>
+      <section className='redefinir-container'>
         <div className='geo-form'>
             <img src="/imagens/form.Geom.png" alt="" />
         </div>
@@ -39,7 +39,7 @@ function RedefinirSenha() {
                 </div> 
             </div>
         </Container>
-      </main>
+      </section>
     )
 }  
 export default RedefinirSenha;

@@ -5,7 +5,7 @@ import './styles.css';
 
 function EnviarEmail() {
     return (
-      <main>
+      <section className='email-container'>
         <div className='geo-form'>
             <img src="/imagens/form.Geom.png" alt="" />
         </div>
@@ -26,7 +26,7 @@ function EnviarEmail() {
               </div> 
           </div>
         </Container>
-      </main>
+      </section>
     )
   }
   

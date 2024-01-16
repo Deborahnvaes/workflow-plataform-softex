@@ -9,6 +9,7 @@ import './style.css'
 import axios from 'axios';
 import Header from '../header/Header'
 import Footer from '../footer/Footer'
+import { Link } from 'react-router-dom';
 
 function Perfil() {
     const [validated, setValidated] = useState(false);
@@ -60,7 +61,7 @@ function Perfil() {
                         <i className='fas fa-user user-icon' ></i>
                     </div>
                     <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Alterar imagem</Button>
-                    <Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}>Redefinir senha</Button>
+                    <Link to="/enviar-email"><Button type="submit" className='btn-perfil' style={{backgroundColor:`#c2651e`}}> Redefinir senha</Button></Link>
                 </div>
                 <Form noValidate validated={validated} onSubmit={handleSubmit} className='py-5 w-100'>
                     <Row className="mb-3">

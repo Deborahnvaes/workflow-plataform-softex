@@ -8,7 +8,8 @@ import TelaInicial from './components/tela-inicial/Inicial.jsx'
 import Perfil from './components/perfil/Perfil.jsx'
 import Faltas from './components/pagina-faltas/faltas.jsx'
 import Ranking from './components/ranking/ranking.jsx'
-
+import EnviarEmail from './components/redefinirSenha/lembrar_senha/esqueceu-senha.jsx'
+import RedefinirSenha from './components/redefinirSenha/redefinir_senha/redefinindo-senha.jsx'
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <Route path="/perfil" element={<Perfil />} />
         <Route path="/faltas" element={<Faltas />} />
         <Route path="/ranking" element={<Ranking />} />
+        <Route path="/enviar-email" element={<EnviarEmail />} />
+        <Route path="/redefinir-senha" element={<RedefinirSenha />} />
       </Routes>
     </Router>
     </main>
