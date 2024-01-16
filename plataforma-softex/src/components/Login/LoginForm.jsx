@@ -25,6 +25,7 @@ const StyledLoginContainer = styled.div`
     left: 0px;
     right: 0px;
     margin: 10px;
+    background-color: #ffff;
   }
 `;
 

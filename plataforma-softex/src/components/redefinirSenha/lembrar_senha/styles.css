@@ -1,4 +1,4 @@
-.redefinir-container{
+.email-container{
     display: flex;
 }
 .geo-form{
@@ -39,6 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #fff;
 }
 
 .remember-password p {
@@ -81,5 +82,15 @@
     }  
     .logo img{
         width: 80%;
+    }
+  }
+
+  
+@media(max-width: 949px){
+   
+    .email-container{
+      background-image: url("../../Login/Style/img/form.Geom.png");
+      background-repeat: no-repeat;
+      height: 100vh;
     }
   }

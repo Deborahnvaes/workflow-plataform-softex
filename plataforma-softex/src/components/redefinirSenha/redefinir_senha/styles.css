@@ -1,6 +1,5 @@
-.email-container{
+.redefinir-container{
     display: flex;
-    background: #DC782A;
 }
 
 .geo-form{
@@ -42,6 +41,7 @@
     align-items: center;
     padding: 5px 0;
     margin: 0;
+    background-color: #fff
 }
 /*Apenas para Redefinir*/
 .redefine-password p {
@@ -81,9 +81,15 @@
     gap: 10px;
 }
 
-@media(max-width: 768px){
+@media(max-width: 949px){
   .redefine-password{
     width: 80%;
-    
+   
   } 
+
+  .redefinir-container{
+    background-image: url("../../Login/Style/img/form.Geom.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
 }
