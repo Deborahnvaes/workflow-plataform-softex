@@ -10,11 +10,11 @@ footer a {
 }
 
 footer {
-  height: 20vh;
+    height: 20vh;
     width: 100%;
-    background-color: #D7D7D7;
+    background-color: #f7f7f7;
     font-size: 0.5rem;
-    border-top: 2px solid #DC782A;
+    border-top: 4px solid #DC782A;
     position:static;
     
 }
