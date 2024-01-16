@@ -5,7 +5,7 @@
 }
 
 .container-faltas {
-    padding: 5rem;
+    padding: 2rem;
     height: 100%;
     width: 100%;
     display: flex;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.btn-faltas a{
+.btn-faltas a {
     color: #000000;
     text-decoration: none;
 }
@@ -69,17 +69,17 @@
 .calendar-info p {
     margin: 0;
     transform: translateX(30%);
-    position: relative; 
+    position: relative;
 }
 
 
 @media(max-width: 950px) {
-    .container-faltas{
+    .container-faltas {
         margin: 0 auto;
-       flex-direction: column;
-       width: 100vw;
-       height: 100%;
-       padding-bottom: 43rem;
+        flex-direction: column;
+        width: 100vw;
+        height: 100%;
+        padding-bottom: 40rem;
     }
 
     .calendar-info-container {
@@ -87,7 +87,14 @@
         flex-direction: row;
         gap: 2rem;
     }
+
     .text-container {
         margin: 0;
+    }
+}
+
+@media(max-width: 750px) {
+    .container-faltas {
+        padding-bottom: 55rem;
     }
 }

@@ -10,7 +10,7 @@ footer a {
 }
 
 footer {
-  
+  height: 20vh;
     width: 100%;
     background-color: #D7D7D7;
     font-size: 0.5rem;
