@@ -22,8 +22,8 @@ const StyledLoginContainer = styled.div`
 
   @media (max-width: 768px) {
     width: calc(100% - 20px);
-    left: 0;
-    right: 0;
+    left: 0px;
+    right: 0px;
     margin: 10px;
   }
 `;
@@ -35,6 +35,13 @@ const StyledTitle = styled.label`
   transform: translateX(-200%);
   background-color: white;
   padding: 0 10px;
+
+  @media (max-width: 768px) {
+    top: -10px;
+    left: 55%;
+  }
+
+ 
 `;
 
 const StyledInput = styled.input`
@@ -90,8 +97,9 @@ const SiteName = styled.p`
   right: 90px;
 
   @media (max-width: 768px) {
-    font-size: 14px;
-    top: 180px;
+    aling-itens: center;
+    padding: 50px;
+    font-size: 20px;
     right: 20px;
   }
 `;
