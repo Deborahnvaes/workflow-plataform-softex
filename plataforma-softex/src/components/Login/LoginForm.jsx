@@ -96,6 +96,8 @@ const SiteName = styled.p`
   position: absolute;
   top: 190px;
   right: 90px;
+  margin: 50px;
+
 
   @media (max-width: 768px) {
     aling-itens: center;
