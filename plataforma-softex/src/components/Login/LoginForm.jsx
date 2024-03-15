@@ -94,7 +94,7 @@ const SiteName = styled.p`
   font-weight: bold;
   right: 150px;
   position: absolute;
-  top: 190px;
+  top: 155px;
   right: 90px;
   margin: 50px;
 
